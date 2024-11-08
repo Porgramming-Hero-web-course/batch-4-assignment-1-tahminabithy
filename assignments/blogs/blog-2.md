@@ -7,8 +7,7 @@ In JavaScript, there are three main approaches to handling asynchronous operatio
 
 ### 1. Using Callbacks
 
-With callbacks, we pass a function that will be called after an operation finishes. However, if we have multiple callbacks, this can quickly become hard to understand due to "callback hell."
-
+With callbacks, we pass a function that will be called after an operation finishes. However, if we have multiple callbacks, it very hard to understand 
 ```typescript
 function fetchData(callback: (data: string) => void) {
     setTimeout(() => {
