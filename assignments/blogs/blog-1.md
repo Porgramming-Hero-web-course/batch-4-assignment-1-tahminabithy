@@ -10,11 +10,11 @@
 
 * Intersection (&):
 
-  An intersection type combines multiple types into one, requiring a variable to satisfy all types simultaneously. This is useful when you want to ensure that an object or variable meets multiple criteria. For example 
+   An intersection type combines multiple types into one, requiring a variable to satisfy all types simultaneously. This is useful when you want to ensure that an object or variable meets multiple criteria.
 
-  type human = {
-name:string;
-eat:boolean
+    type human = {
+    name:string;
+    eat:boolean
     }
     type student = {
     name:string;
@@ -26,5 +26,6 @@ eat:boolean
     eat: true,
     study: true
      }
+    In this example, student1 combines properties from both Human and Student types, meaning it must have a name, eat, and study property.
 
-    In short, intersection types let you combine properties of multiple types, which is especially useful when you want to ensure that a type meets multiple requirements.
+    In short, intersection types allow you to merge properties of multiple types, which is especially helpful when a type needs to satisfy several requirements at once.
